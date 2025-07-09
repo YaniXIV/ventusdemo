@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28449A212E1EBC57005AF367 /* Swoir in Frameworks */ = {isa = PBXBuildFile; productRef = 28449A202E1EBC57005AF367 /* Swoir */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28A99A572E093BA700EDEF82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28A99A412E093BA600EDEF82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28A99A482E093BA600EDEF82;
+			remoteInfo = ventusdemo;
+		};
+		28A99A612E093BA700EDEF82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28A99A412E093BA600EDEF82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28A99A482E093BA600EDEF82;
+			remoteInfo = ventusdemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28A99A492E093BA600EDEF82 /* ventusdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ventusdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A99A562E093BA700EDEF82 /* ventusdemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ventusdemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A99A602E093BA700EDEF82 /* ventusdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ventusdemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		282818E22E0D732000E68D49 /* Exceptions for "ventusdemo" folder in "ventusdemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 28A99A482E093BA600EDEF82 /* ventusdemo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		28A99A4B2E093BA600EDEF82 /* ventusdemo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				282818E22E0D732000E68D49 /* Exceptions for "ventusdemo" folder in "ventusdemo" target */,
+			);
+			explicitFileTypes = {
+				noircircuits.json = text.json;
+			};
+			path = ventusdemo;
+			sourceTree = "<group>";
+		};
+		28A99A592E093BA700EDEF82 /* ventusdemoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ventusdemoTests;
+			sourceTree = "<group>";
+		};
+		28A99A632E093BA700EDEF82 /* ventusdemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ventusdemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28A99A462E093BA600EDEF82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28449A212E1EBC57005AF367 /* Swoir in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A99A532E093BA700EDEF82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A99A5D2E093BA700EDEF82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28A99A402E093BA600EDEF82 = {
+			isa = PBXGroup;
+			children = (
+				28A99A4B2E093BA600EDEF82 /* ventusdemo */,
+				28A99A592E093BA700EDEF82 /* ventusdemoTests */,
+				28A99A632E093BA700EDEF82 /* ventusdemoUITests */,
+				28A99A4A2E093BA600EDEF82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28A99A4A2E093BA600EDEF82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28A99A492E093BA600EDEF82 /* ventusdemo.app */,
+				28A99A562E093BA700EDEF82 /* ventusdemoTests.xctest */,
+				28A99A602E093BA700EDEF82 /* ventusdemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28A99A482E093BA600EDEF82 /* ventusdemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28A99A6A2E093BA700EDEF82 /* Build configuration list for PBXNativeTarget "ventusdemo" */;
+			buildPhases = (
+				28A99A452E093BA600EDEF82 /* Sources */,
+				28A99A462E093BA600EDEF82 /* Frameworks */,
+				28A99A472E093BA600EDEF82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				28A99A4B2E093BA600EDEF82 /* ventusdemo */,
+			);
+			name = ventusdemo;
+			packageProductDependencies = (
+				2803ECAF2E10D44C00508771 /* Swoir */,
+				28449A202E1EBC57005AF367 /* Swoir */,
+			);
+			productName = ventusdemo;
+			productReference = 28A99A492E093BA600EDEF82 /* ventusdemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28A99A552E093BA700EDEF82 /* ventusdemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28A99A6D2E093BA700EDEF82 /* Build configuration list for PBXNativeTarget "ventusdemoTests" */;
+			buildPhases = (
+				28A99A522E093BA700EDEF82 /* Sources */,
+				28A99A532E093BA700EDEF82 /* Frameworks */,
+				28A99A542E093BA700EDEF82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28A99A582E093BA700EDEF82 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				28A99A592E093BA700EDEF82 /* ventusdemoTests */,
+			);
+			name = ventusdemoTests;
+			packageProductDependencies = (
+			);
+			productName = ventusdemoTests;
+			productReference = 28A99A562E093BA700EDEF82 /* ventusdemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28A99A5F2E093BA700EDEF82 /* ventusdemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28A99A702E093BA700EDEF82 /* Build configuration list for PBXNativeTarget "ventusdemoUITests" */;
+			buildPhases = (
+				28A99A5C2E093BA700EDEF82 /* Sources */,
+				28A99A5D2E093BA700EDEF82 /* Frameworks */,
+				28A99A5E2E093BA700EDEF82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28A99A622E093BA700EDEF82 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				28A99A632E093BA700EDEF82 /* ventusdemoUITests */,
+			);
+			name = ventusdemoUITests;
+			packageProductDependencies = (
+			);
+			productName = ventusdemoUITests;
+			productReference = 28A99A602E093BA700EDEF82 /* ventusdemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28A99A412E093BA600EDEF82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					28A99A482E093BA600EDEF82 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					28A99A552E093BA700EDEF82 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 28A99A482E093BA600EDEF82;
+					};
+					28A99A5F2E093BA700EDEF82 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 28A99A482E093BA600EDEF82;
+					};
+				};
+			};
+			buildConfigurationList = 28A99A442E093BA600EDEF82 /* Build configuration list for PBXProject "ventusdemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28A99A402E093BA600EDEF82;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				28449A1F2E1EBC57005AF367 /* XCRemoteSwiftPackageReference "Swoir" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 28A99A4A2E093BA600EDEF82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28A99A482E093BA600EDEF82 /* ventusdemo */,
+				28A99A552E093BA700EDEF82 /* ventusdemoTests */,
+				28A99A5F2E093BA700EDEF82 /* ventusdemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28A99A472E093BA600EDEF82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A99A542E093BA700EDEF82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A99A5E2E093BA700EDEF82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28A99A452E093BA600EDEF82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A99A522E093BA700EDEF82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A99A5C2E093BA700EDEF82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28A99A582E093BA700EDEF82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28A99A482E093BA600EDEF82 /* ventusdemo */;
+			targetProxy = 28A99A572E093BA700EDEF82 /* PBXContainerItemProxy */;
+		};
+		28A99A622E093BA700EDEF82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28A99A482E093BA600EDEF82 /* ventusdemo */;
+			targetProxy = 28A99A612E093BA700EDEF82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28A99A682E093BA700EDEF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = K2Y35HXSBF;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28A99A692E093BA700EDEF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = K2Y35HXSBF;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28A99A6B2E093BA700EDEF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2Y35HXSBF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ventusdemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yani.ventusdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28A99A6C2E093BA700EDEF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2Y35HXSBF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ventusdemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yani.ventusdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28A99A6E2E093BA700EDEF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2Y35HXSBF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yani.ventusdemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ventusdemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ventusdemo";
+			};
+			name = Debug;
+		};
+		28A99A6F2E093BA700EDEF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2Y35HXSBF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yani.ventusdemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ventusdemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ventusdemo";
+			};
+			name = Release;
+		};
+		28A99A712E093BA700EDEF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2Y35HXSBF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yani.ventusdemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ventusdemo;
+			};
+			name = Debug;
+		};
+		28A99A722E093BA700EDEF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2Y35HXSBF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yani.ventusdemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ventusdemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28A99A442E093BA600EDEF82 /* Build configuration list for PBXProject "ventusdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A99A682E093BA700EDEF82 /* Debug */,
+				28A99A692E093BA700EDEF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28A99A6A2E093BA700EDEF82 /* Build configuration list for PBXNativeTarget "ventusdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A99A6B2E093BA700EDEF82 /* Debug */,
+				28A99A6C2E093BA700EDEF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28A99A6D2E093BA700EDEF82 /* Build configuration list for PBXNativeTarget "ventusdemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A99A6E2E093BA700EDEF82 /* Debug */,
+				28A99A6F2E093BA700EDEF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28A99A702E093BA700EDEF82 /* Build configuration list for PBXNativeTarget "ventusdemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A99A712E093BA700EDEF82 /* Debug */,
+				28A99A722E093BA700EDEF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		28449A1F2E1EBC57005AF367 /* XCRemoteSwiftPackageReference "Swoir" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swoir/Swoir.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2803ECAF2E10D44C00508771 /* Swoir */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Swoir;
+		};
+		28449A202E1EBC57005AF367 /* Swoir */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 28449A1F2E1EBC57005AF367 /* XCRemoteSwiftPackageReference "Swoir" */;
+			productName = Swoir;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 28A99A412E093BA600EDEF82 /* Project object */;
+}

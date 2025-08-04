@@ -43,7 +43,7 @@ Progress:
 - Swift iOS app working: Take photo → Face ID → Sign → ZK proof (via swoir)
 - Placeholder circuit complete; Noir circuit in development
 - Recursive proof design established
-- Early feedback loop with Aztec (Josh)
+- Early feedback loop with Aztec
 - Addressing edge cases like AI-generated image abuse with endorsement layers
 
 Conclusion:

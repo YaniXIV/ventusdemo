@@ -40,7 +40,7 @@ Strategic Roadmap:
 7.  Standardize Ventus proof format
 
 Progress:
-- Swift iOS app working: Take photo → Face ID → Sign → ZK proof (via swoir)
+- Swift iOS app working: Take photo → Face ID → Sign → ZK proof
 - Placeholder circuit complete; Noir circuit in development
 - Recursive proof design established
 - Early feedback loop with Aztec
